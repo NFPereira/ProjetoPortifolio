@@ -7,16 +7,20 @@ import Home from './pages/Home';
 import Projetos from './pages/Projetos';
 import Curriculum from './pages/Curriculum';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
     <Router>
       <Navbar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/projetos' element={<Projetos />} />
-        <Route path='/curriculum' element={<Curriculum />} />
-      </Routes>
+      <div className='Container'>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/projetos' element={<Projetos />} />
+          <Route path='/curriculum' element={<Curriculum />} />
+        </Routes>
+      </div>
+      <Footer />
     </Router>
   )
 }
