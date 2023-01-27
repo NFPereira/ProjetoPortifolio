@@ -3,7 +3,9 @@ import './styles.css';
 
 const Curriculum = () => {
   return (
-    <div>Curriculum</div>
+    <div className='Curriculum'>
+        <h1>Currículum</h1>
+    </div>
   )
 }
 
