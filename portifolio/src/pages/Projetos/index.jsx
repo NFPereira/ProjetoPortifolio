@@ -3,7 +3,11 @@ import './styles.css';
 
 const Projetos = () => {
   return (
-    <div>Projetos</div>
+    <div className="Projetos">
+        <h1>
+            Projetos
+        </h1>
+    </div>
   )
 }
 
